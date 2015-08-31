@@ -1,0 +1,26 @@
+{
+  "name": "RussellPerkinsResume",
+  "version": "0.0.2",
+  "description": "A Resume Site for Russell Perkins",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "jade": "*",
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDigitalNinja/RussellPerkinsResume.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "WTFPL"
+}

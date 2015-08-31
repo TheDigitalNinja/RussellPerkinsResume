@@ -1,0 +1,22 @@
+.text-center { 
+	text-align: center;
+}
+
+.header {
+	background: #007bb6;
+	color: #fff;
+}
+.header a { color: #fff; }
+
+.job {
+	margin-bottom: 50px;
+}
+
+.job-date {
+	text-align: right;
+	margin-top: 10px;
+}
+
+.company {
+	color: #908E8E;
+}
