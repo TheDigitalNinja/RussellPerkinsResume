@@ -3,7 +3,7 @@
 Over a decade of professional experience and a passion for the latest technologies, server configurations, and programming techniques. Communicates well and takes pride at being a team player. Follows best practices and can find unique solutions for any problem. 
 
 ***
-## Experince
+## Experience 
 
 Web Development Manager & Lead Developer at The Evoke Group _(January 2014 - September, 2015)_
 - Built consistent, scalable, repeatable, business solutions to allow our company to grow in revenue every quarter.
