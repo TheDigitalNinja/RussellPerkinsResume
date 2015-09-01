@@ -2,11 +2,11 @@
 	text-align: center;
 }
 
-.header {
+.header, .footer {
 	background: #007bb6;
 	color: #fff;
 }
-.header a { color: #fff; }
+.header a, .footer a { color: #fff; }
 
 .job {
 	margin-bottom: 50px;
@@ -19,4 +19,8 @@
 
 .company {
 	color: #908E8E;
+}
+
+.footer {
+	padding: 25px 0;
 }
