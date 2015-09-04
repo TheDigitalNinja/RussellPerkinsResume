@@ -10,8 +10,15 @@
     "jade": "*",
     "express": "~4.9.x"
   },
+  "devDependencies": {
+    "mocha": "2.3.0",
+    "supertest": "1.1.0"
+  },
+ "scripts": {
+   "test": "node_modules/.bin/mocha -w"
+ },
   "engines": {
-    "node": "0.12.2"
+    "node": "0.12.7"
   },
   "repository": {
     "type": "git",
