@@ -4,7 +4,8 @@
   "description": "A Resume Site for Russell Perkins",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
     "jade": "*",
@@ -14,9 +15,6 @@
     "mocha": "2.3.0",
     "supertest": "1.1.0"
   },
- "scripts": {
-   "test": "node_modules/.bin/mocha -w"
- },
   "engines": {
     "node": "0.12.7"
   },
