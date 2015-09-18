@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var compress = require('compression');
 
 // Set port
 app.set('port', (process.env.PORT || 4000));
@@ -11,6 +12,9 @@ app.set('view engine', 'jade');
 
 // Static Assets
 app.use(express.static('public'));
+
+// Middleware
+app.use(compress());  
 
 // Routes
 app.get('/', function(req, res) {

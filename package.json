@@ -8,8 +8,9 @@
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
-    "jade": "*",
-    "express": "~4.9.x"
+    "compression": "^1.5.2",
+    "express": "~4.9.x",
+    "jade": "^1.11.0"
   },
   "devDependencies": {
     "mocha": "2.3.0",
