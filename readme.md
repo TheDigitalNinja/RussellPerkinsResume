@@ -9,6 +9,9 @@ Over a decade of professional experience and a passion for the latest technologi
 Web Development Manager & Lead Developer at The Evoke Group _(January 2014 - September, 2015)_
 - Built consistent, scalable, repeatable, business solutions to allow our company to grow in revenue every quarter.
 - Created training materials and trained all staff members on best practices for coding and responsive design.
+- Architected entire company's infrastructure, from in wall networking, dev servers, to aws cloud infrastructure.
+- Managed nightly backups to an onsite nas and offsite with S3 and glacier.
+- Maintained developer tools such as grunt and built multiple in house tools for developers and sales
 - Built over 31 and custom websites in wordpress from the ground up. No purchased themes.
 
 Senior Systems Administrator / Dev Ops at Listener Approved _(September, 2011 - September 2013)_
