@@ -1,4 +1,4 @@
-[![Build Status](http://jenkins.russellperkins.net/buildStatus/icon?job=russellperkins.net)](http://jenkins.russellperkins.net/job/russellperkins.net)
+[![Build Status](http://jenkins.russellperkins.net/buildStatus/icon?job=russellperkins.net)]
 # Russell Perkins
 ***
 Over a decade of professional experience and a passion for the latest technologies, server configurations, and programming techniques. Communicates well and takes pride at being a team player. Follows best practices and can find unique solutions for any problem. 
