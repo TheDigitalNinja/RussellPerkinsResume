@@ -6,6 +6,8 @@
 	background: #007bb6;
 	color: #fff;
 }
+
+.header a { margin-right: 8px; }
 .header a, .footer a { color: #fff; }
 
 .job {
