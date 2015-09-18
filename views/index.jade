@@ -116,8 +116,17 @@ html
 					p CFMC Programmer and PC repair and maintenance.
 		div.footer
 			div.container.text-center
-				p Made in nodejs & express with a jade template pushed to github intigration tested with #[a(href='http://jenkins.russellperkins.net', target='_blank') jenkins] and hosted on heroku. whew.
-				a.h1(href='https://github.com/TheDigitalNinja/RussellPerkinsResume', target='blank') View Source
+				p Made in nodejs & express with a jade template pushed to github intigration tested with #[a(href='http://jenkins.russellperkins.net', target='_blank') jenkins] and continuous deployment to heroku. whew.
+				a.btn.btn-success.btn-lg(href='https://github.com/TheDigitalNinja/RussellPerkinsResume', target='blank') View Source &nbsp;
+					i.fa.fa-github
+			div.container
+				p.h4.text-center Or try it yourself
+				div.col-md-6.col-md-offset-3.codeblock
+					p git clone https://github.com/TheDigitalNinja/RussellPerkinsResume.git
+						| cd RussellPerkinsResume
+						| npm install
+						| npm test
+						| npm start
 
 
 		script.
