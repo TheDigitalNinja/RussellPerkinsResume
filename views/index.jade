@@ -8,7 +8,7 @@ html
 		link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', rel='stylesheet')
 		link(href='/css/style.css', rel='stylesheet')
 	body
-		a(href="https://github.com/TheDigitalNinja/RussellPerkinsResume", target="_blank")
+		a.hidden-print(href="https://github.com/TheDigitalNinja/RussellPerkinsResume", target="_blank")
 			img(style="position: absolute; top: 0; left: 0; border: 0;", src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub").hidden-xs.hidden-sm
 		div.header
 			div.container.text-center
@@ -88,7 +88,7 @@ html
 							| September, 2006 - May, 2010 (3 years, 9 months)
 					p Network and server administrator of two locations and 200 computers. Web developer and survey programmer (PHP, apache, HTML, CSS, JavaScript, Perl)
 
-				div.job
+				div.job.hidden-print
 					div.row
 						div.col-md-6.job-title
 							h2.h4 Workstation Anaylst
@@ -97,7 +97,7 @@ html
 							| March, 2005 - August, 2006 (1 year, 6 months)
 					p Helpdesk lead responsible for 1,400 users and 800 desktop. Manage applications and installations via Microsoft SMS and Active Directory. SharePoint portal administrator and rollout coordinator.
 
-				div.job
+				div.job.hidden-print
 					div.row
 						div.col-md-6.job-title
 							h2.h4 Owner
@@ -106,7 +106,7 @@ html
 							| December, 2003 - February, 2005 (1 year, 3 months)
 					p Owner, Network Admin, Web design, Manager
 
-				div.job
+				div.job.hidden-print
 					div.row
 						div.col-md-6.job-title
 							h2.h4 Programmer
@@ -114,10 +114,14 @@ html
 						div.col-md-6.job-date
 							| August, 2000 - August, 2001 (1 year, 1 month)
 					p CFMC Programmer and PC repair and maintenance.
+					
+				div.visible-print-block.text-center
+					p - Jobs truncated for print purposes. See https://RussellPerkins.net for full view. -
+					
 		div.footer
 			div.container.text-center
 				p Made in nodejs & express with a jade template pushed to github intigration tested with #[a(href='http://jenkins.russellperkins.net', target='_blank') jenkins] and continuous deployment to heroku. whew.
-				a.btn.btn-success.btn-lg(href='https://github.com/TheDigitalNinja/RussellPerkinsResume', target='blank') View Source &nbsp;
+				a.btn.btn-success.btn-lg.hidden-print(href='https://github.com/TheDigitalNinja/RussellPerkinsResume', target='blank') View Source &nbsp;
 					i.fa.fa-github
 			div.container.hidden-sm.hidden-xs
 				p.h4.text-center Or try it yourself
