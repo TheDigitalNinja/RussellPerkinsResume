@@ -1,0 +1,23 @@
+div#footer
+	div.container.text-center
+		p Made in nodejs & express with a jade template pushed to github intigration tested with #[a(href='http://jenkins.russellperkins.net', target='_blank') jenkins] and continuous deployment to heroku. whew.
+		a.btn.btn-success.btn-lg.hidden-print(href='https://github.com/TheDigitalNinja/RussellPerkinsResume', target='blank') View Source &nbsp;
+			i.fa.fa-github
+	div.container.hidden-sm.hidden-xs
+		p.h4.text-center Or try it yourself
+		div.col-md-6.col-md-offset-3.codeblock
+			p git clone https://github.com/TheDigitalNinja/RussellPerkinsResume.git
+				| cd RussellPerkinsResume
+				| npm install
+				| npm test
+				| npm start
+
+
+script.
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-67066502-1', 'auto');
+	ga('send', 'pageview');
