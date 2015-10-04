@@ -2,13 +2,13 @@
 	text-align: center;
 }
 
-.header, .footer {
+#header, #footer {
 	background: #007bb6;
 	color: #fff;
 }
 
-.header a { margin-right: 8px; }
-.header a, .footer a { color: #fff; }
+#header a { margin-right: 8px; }
+#header a, #footer a { color: #fff; }
 
 .job {
 	margin-bottom: 50px;
@@ -30,10 +30,10 @@
 	color: #908E8E;
 }
 
-.footer {
+#footer {
 	padding: 25px 0;
 }
-.footer .btn {
+#footer .btn {
 	margin: 15px 0;
 }
 

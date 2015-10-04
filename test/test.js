@@ -8,7 +8,7 @@ describe('GET /', function() {
   it('Should have proper content (Russell Perkins & a footer)', function(done) {
   	request(app).get('/')
   		.expect(/Russell Perkins/)
-  		.expect(/class="footer"/,done);
+  		.expect(/id="footer"/,done);
   });
 });
 

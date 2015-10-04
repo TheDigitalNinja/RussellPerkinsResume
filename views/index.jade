@@ -8,10 +8,13 @@ html
 		link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css', rel='stylesheet')
 		link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', rel='stylesheet')
 		link(href='/css/style.css', rel='stylesheet')
-	body
+		script(src='https://code.jquery.com/jquery-2.1.4.min.js', defer)
+		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js', defer)
+		script(src='/js/scripts.js', defer)
+	body(data-spy='scroll', target='#navbar')
 		a.hidden-print(href="https://github.com/TheDigitalNinja/RussellPerkinsResume", target="_blank")
 			img(style="position: absolute; top: 0; left: 0; border: 0;", src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub").hidden-xs.hidden-sm
-		div.header
+		div#header
 			div.container.text-center
 				h1 Russell Perkins
 				p
@@ -24,13 +27,28 @@ html
 				p
 					a(href='https://linkedin.com/in/thedigitalninja', target='_blank')
 						i.fa.fa-linkedin-square 
-						|  linkedin.com/in/thedigitalninja 
-		div.summary
+						|  linkedin.com/in/thedigitalninja
+		div#sticky-anchor
+		div#navbar.navbar-default.hidden-print.hidden-xs.hidden-sm
+			.container
+				ul.nav.navbar-nav(role='tablist')
+					li
+						a(href='#header') Summary
+					li
+						a(href='#experience') Experience
+					//li
+					//	a(href='#certifications') Certifications
+					//li
+					//	a(href='#education') Education
+					li
+						a(href='#footer') Tech Stack
+				
+		div#summary
 			div.container
 				p.h1 Summary
 				hr
 				p Over a decade of professional experience and a passion for the latest technologies, server configurations, and programming techniques. Communicates well and takes pride at being a team player. Follows best practices and can find unique solutions for any problem. 
-		div.experince
+		div#experience
 			div.container
 				p.h1 Experience 
 				hr
@@ -119,7 +137,7 @@ html
 				div.visible-print-block.text-center
 					p - Jobs truncated for print purposes. See https://RussellPerkins.net for full view. -
 					
-		div.footer
+		div#footer
 			div.container.text-center
 				p Made in nodejs & express with a jade template pushed to github intigration tested with #[a(href='http://jenkins.russellperkins.net', target='_blank') jenkins] and continuous deployment to heroku. whew.
 				a.btn.btn-success.btn-lg.hidden-print(href='https://github.com/TheDigitalNinja/RussellPerkinsResume', target='blank') View Source &nbsp;
