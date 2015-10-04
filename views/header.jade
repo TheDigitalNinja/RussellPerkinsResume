@@ -30,15 +30,20 @@ html
 						|  linkedin.com/in/thedigitalninja
 		div#sticky-anchor
 		div#navbar.navbar-default.hidden-print.hidden-xs.hidden-sm
-			.container
+			div.container
 				ul.nav.navbar-nav(role='tablist')
 					li
 						a(href='#header') Summary
 					li
 						a(href='#experience') Experience
-					//li
-					//	a(href='#certifications') Certifications
-					//li
-					//	a(href='#education') Education
+					li
+						a(href='#certifications') Certifications
+					li
+						a(href='#education') Education
 					li
 						a(href='#footer') Tech Stack
+				ul.nav.navbar-nav.navbar-right
+					li
+						a(href='javascript:window.print()')
+							i.fa.fa-print  
+							|  Print
