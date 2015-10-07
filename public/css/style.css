@@ -1,62 +1,53 @@
-.text-center { 
-	text-align: center;
-}
+.text-center {
+  text-align: center; }
 
 #header, #footer {
-	background: #007bb6;
-	color: #fff;
-}
+  background: #007bb6;
+  color: #fff; }
 
-#header a { margin-right: 8px; }
-#header a, #footer a { color: #fff; }
+#header a {
+  margin-right: 8px; }
+
+#header a, #footer a {
+  color: #fff; }
 
 .job {
-	margin-bottom: 50px;
-}
+  margin-bottom: 50px; }
 
 .job-date {
-	text-align: right;
-	margin-top: 10px;
-	margin-bottom: 15px;
-}
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 15px; }
 
 @media only screen and (max-width: 992px) {
-    .job-date {
-        text-align: left;
-    }
-}
-
+  .job-date {
+    text-align: left; } }
 .company {
-	color: #908E8E;
-}
+  color: #908E8E; }
 
 #footer {
-	padding: 25px 0;
-	margin-top: 75px;
-}
+  padding: 25px 0;
+  margin-top: 75px; }
+
 #footer .btn {
-	margin: 15px 0;
-}
+  margin: 15px 0; }
 
 .codeblock {
-	white-space: pre;
-	box-shadow: 1px 1px 5px #555 inset;
-	background: #000;
-	color: #fff;
-	padding: 12px;
-}
+  white-space: pre;
+  box-shadow: 1px 1px 5px #555 inset;
+  background: #000;
+  color: #fff;
+  padding: 12px; }
 
 /* print spefic css */
-@page { 
-	size: auto;
-	margin: .5mm;
-} 
-
+@page {
+  size: auto;
+  margin: 0.5mm; }
 @media print {
-	#footer {
-		margin-top: 0;
-	}
-	hr {
-		margin: 10px 0;
-	}
-}
+  #footer {
+    margin-top: 0; }
+
+  hr {
+    margin: 10px 0; } }
+
+/*# sourceMappingURL=style.css.map */
