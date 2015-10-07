@@ -1,6 +1,6 @@
 {
   "name": "RussellPerkinsResume",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A Resume Site for Russell Perkins",
   "main": "app.js",
   "scripts": {
