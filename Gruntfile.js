@@ -21,17 +21,20 @@ module.exports = function(grunt) {
 				livereload: true,
 			},
 			css: {
-				files: '**/*.sass',
+				files: 'sass/*.sass',
 				tasks: ['sass'],
 			},
 			exec: {
-				files: ['**/*.js', '**/*.jade'],
+				files: ['**/*.js', 'views/*.jade'],
 				tasks: ['exec']
 			}
 		}
 	});
+	
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-exec');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	
 	grunt.registerTask('default',['watch']);
+	grunt.registerTask('build',['sass']);
 }
