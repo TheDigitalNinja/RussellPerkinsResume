@@ -12,11 +12,13 @@ html
 		script(src='https://code.jquery.com/jquery-2.1.4.min.js', defer)
 		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js', defer)
 		script(src='/js/scripts.js', defer)
-		script(src="//ec2-52-88-185-243.us-west-2.compute.amazonaws.com:35729/livereload.js", defer)
+		if liveReload
+			script(src="//ec2-52-88-185-243.us-west-2.compute.amazonaws.com:35729/livereload.js", defer)
 		
 	body(data-spy='scroll', data-target='#navbar')
 		include header.jade
 		include summary.jade
+		p #{test}
 		include experience.jade
 		include certifications.jade
 		include education.jade

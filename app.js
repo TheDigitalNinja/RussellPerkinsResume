@@ -2,6 +2,8 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var compress = require('compression');
+var debug = false;
+if (!process.env.PORT) { debug = true; }
 
 // Set port
 app.set('port', (process.env.PORT || 4000));
@@ -18,7 +20,7 @@ app.use(compress());
 
 // Routes
 app.get('/', function(req, res) {
-  res.render('index');
+  res.render('index', {liveReload: debug});
 });
 
 // Main
