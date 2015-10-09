@@ -14,6 +14,9 @@ module.exports = function(grunt) {
 		exec: {
 			mocha: {
 				command: './node_modules/mocha/bin/mocha'
+			},
+			index: {
+				command: './node_modules/jade/bin/jade.js views/index.jade --out public/'
 			}
 		},
 		watch: {
@@ -36,5 +39,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	
 	grunt.registerTask('default',['watch']);
-	grunt.registerTask('build',['sass']);
+	grunt.registerTask('build',['sass','exec']);
 }
