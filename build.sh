@@ -6,9 +6,13 @@ npm install
 grunt sass
 grunt exec:index
 
-# Create compressed files
-gzip -kf public/css/*.css
-gzip -kf public/css/*.map
-gzip -kf public/js/*.js
-gzip -kf public/js/*.map
-gzip -kf public/*.html
+# Prep files
+rm -rf dist/*
+cp -r public/* dist/
+
+# Compress files
+find dist/*.html -exec gzip -9 {} \; -exec mv {}.gz {} \;
+find dist/css/*.css -exec gzip -9 {} \; -exec mv {}.gz {} \;
+find dist/css/*.map -exec gzip -9 {} \; -exec mv {}.gz {} \;
+find dist/js/*.js -exec gzip -9 {} \; -exec mv {}.gz {} \;
+#find dist/js/*.map -exec gzip -9 {} \; -exec mv {}.gz {} \;
