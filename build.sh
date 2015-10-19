@@ -7,6 +7,9 @@ grunt sass
 grunt exec:index
 
 # Prep files
+if [! -f dist/ ]
+	mkdir dist
+fi
 rm -rf dist/*
 cp -r public/* dist/
 
